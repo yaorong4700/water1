@@ -150,7 +150,7 @@
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
               	
-              	<target name="war" depends="build">  
+              	<target name="war" depends="build-project">  
               		        <war destfile="dist/waterInfoSystem.war" webxml="WebRoot/WEB-INF/web.xml">  
               		            <fileset dir="WebRoot"/>  
               		            <lib dir="WebRoot/WEB-INF/lib"/>  
