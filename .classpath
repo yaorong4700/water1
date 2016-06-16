@@ -67,8 +67,8 @@
 	<classpathentry exported="true" kind="lib" path="/home/wpdocker/UI/waterInfoSystem/WebRoot/WEB-INF/lib/HttpClient4.2.1/httpclient-cache-4.2.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/wpdocker/UI/waterInfoSystem/WebRoot/WEB-INF/lib/HttpClient4.2.1/httpcore-4.2.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/wpdocker/UI/waterInfoSystem/WebRoot/WEB-INF/lib/HttpClient4.2.1/httpmime-4.2.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="/home/wpdocker/UI/jenkins-client-0.3.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="/home/wpdocker/下载/jenkins0.3.5/mockito-all-1.8.5.jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/wpdocker/UI/waterInfoSystem/WebRoot/WEB-INF/lib/jenkins-cli.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/wpdocker/UI/waterInfoSystem/WebRoot/WEB-INF/lib/jenkins-client-0.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/wpdocker/UI/waterInfoSystem/WebRoot/WEB-INF/lib/mockito-all-1.8.5.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

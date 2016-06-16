@@ -123,8 +123,9 @@
         <pathelement location="WebRoot/WEB-INF/lib/HttpClient4.2.1/httpclient-cache-4.2.1.jar"/>
         <pathelement location="WebRoot/WEB-INF/lib/HttpClient4.2.1/httpcore-4.2.1.jar"/>
         <pathelement location="WebRoot/WEB-INF/lib/HttpClient4.2.1/httpmime-4.2.1.jar"/>
-        <pathelement location="../jenkins-client-0.3.5.jar"/>
-        <pathelement location="../../下载/jenkins0.3.5/mockito-all-1.8.5.jar"/>
+        <pathelement location="WebRoot/WEB-INF/lib/jenkins-cli.jar"/>
+        <pathelement location="WebRoot/WEB-INF/lib/jenkins-client-0.3.5.jar"/>
+        <pathelement location="WebRoot/WEB-INF/lib/mockito-all-1.8.5.jar"/>
     </path>
     <target name="init">
         <mkdir dir="WebRoot/WEB-INF/classes"/>
@@ -135,7 +136,6 @@
         </copy>
     </target>
     <target name="clean">
-    	<delete dir="dist" />
         <delete dir="WebRoot/WEB-INF/classes"/>
     </target>
     <target depends="clean" name="cleanall"/>
@@ -149,7 +149,6 @@
         </javac>
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
-              	
               	<target name="war" depends="build-project">  
               		        <war destfile="dist/waterInfoSystem.war" webxml="WebRoot/WEB-INF/web.xml">  
               		            <fileset dir="WebRoot"/>  
